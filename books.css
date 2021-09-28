@@ -1,0 +1,50 @@
+/* First NCERT IMAGE */
+
+.NCERT{
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.626);
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+}
+.NCERT:hover{
+    cursor: pointer;
+}
+
+
+/* Second Image */
+.READING{
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.626);
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+}
+.READING{
+
+    cursor: pointer;
+
+}
+.NCERT, .READING{
+    margin-top: 60px;
+
+}
+
+
+
+
+/* responsivness */
+
+@media screen and (max-width:546px) {
+    .NCERT, .READING{
+        width: 250px;
+       height: 250px;
+    }
+    
+}
+
+@media screen and (max-width:360px) {
+    .NCERT, .READING{
+        width: 200px;
+       height: 200px;
+    }
+    
+}
